@@ -40,7 +40,7 @@ const App: React.FC = () => {
         </div>
         <div style={{ display: "flex", gap: 8 }}>
           <span style={{ fontSize: 12, color: "#6b7280" }}>
-            Backend: <code>http://localhost:4000/api</code>
+            Backend: <code>https://hr-workflow-designer-production.up.railway.app/api</code>
           </span>
         </div>
       </header>
