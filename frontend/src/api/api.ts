@@ -4,7 +4,8 @@ import {
   WorkflowGraphPayload,
 } from "../types/workflow";
 
-const API_BASE = "http://localhost:4000/api";
+export const API_BASE = "https://hr-workflow-designer.onrender.com/api";
+
 
 export async function getAutomations(): Promise<AutomationAction[]> {
   const res = await fetch(`${API_BASE}/automations`);
